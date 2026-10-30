@@ -1,0 +1,17 @@
+HOW TO UPLOAD THIS PROJECT TO GITHUB USING A MOBILE PHONE
+
+1. Download and extract Cake_Corner_Capstone20_GitHub.zip on your phone.
+2. Open github.com in Chrome and sign in.
+3. Tap the + icon and choose New repository.
+4. Repository name: cake-corner-ai-social-media-calendar
+5. Add a short description: AI-powered 30-day social media content calendar for a fictional small cake business.
+6. Choose Public or Private as instructed by your teacher.
+7. Create the repository.
+8. Open the repository and choose Add file > Upload files.
+9. Select the extracted project files and folders. If mobile upload makes folders difficult, upload the files in smaller batches while keeping the folder names.
+10. Make sure README.md is included in the repository root.
+11. Add a commit message such as: Initial project upload.
+12. Tap Commit changes.
+
+Suggested GitHub repository description:
+AI-powered social media content calendar for Cake Corner, a fictional small bakery. Includes a 30-day calendar, 12 post drafts, six poster designs, a Reel storyboard, and a Google Sheets automation guide.

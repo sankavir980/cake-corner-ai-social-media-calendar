@@ -1,0 +1,20 @@
+AI-ASSISTED VS MANUAL WORKFLOW COMPARISON
+Project: Cake Corner (fictional small business)
+
+IMPORTANT: The numbers below are planning estimates for a classroom demonstration, not measured results. Replace them with your own timed results after completing the work.
+
+Task | Manual estimate | AI-assisted estimate | What to record
+30-day idea/calendar planning | 120 min | 35 min | Time to prepare and review the calendar
+12 caption drafts | 90 min | 35 min | Drafting plus editing time
+6 visual designs | 150 min | 75 min | Design and revision time
+Reel planning/editing | 60 min | 35 min | Storyboard and edit time
+Total | 420 min | 180 min | Actual total after testing
+
+Estimated difference: 240 minutes saved in this example (about 57%). This is not a guaranteed saving. Actual results depend on the student's skills, prompts, tools, and review time.
+
+How to measure fairly:
+1. Use the same brief and final quality checklist for both workflows.
+2. Start a timer for each task.
+3. Include prompting, corrections, fact-checking, and final review in AI-assisted time.
+4. Record the actual minutes and compare quality as well as speed.
+5. Explain any errors or revisions caused by AI.

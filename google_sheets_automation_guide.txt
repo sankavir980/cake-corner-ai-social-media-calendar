@@ -1,0 +1,55 @@
+CAKE CORNER — SIMPLE CONTENT-CALENDAR AUTOMATION
+
+Goal:
+When a row in the Google Sheets calendar is marked READY, copy its day, theme, post type, and content idea into a separate Draft Queue sheet. This demonstrates one automated workflow step. It does not publish or message anyone.
+
+Setup:
+1. Upload 30_day_content_calendar.xlsx to Google Drive and open it with Google Sheets.
+2. Rename the first sheet to Calendar.
+3. Add a new column named Status. Use values such as PLANNING, READY, and COPIED.
+4. Create another sheet named Draft Queue.
+5. In Draft Queue, add these headings in row 1: Day, Theme, Post Type, Content Idea, Status.
+6. In Google Sheets, choose Extensions > Apps Script.
+7. Paste the script below and save.
+8. Run moveReadyRows once and approve the permissions after reviewing the script.
+9. Mark one Calendar row READY and run the function again. Confirm that it appears in Draft Queue and its status changes to COPIED.
+
+SCRIPT:
+
+function moveReadyRows() {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const source = ss.getSheetByName('Calendar');
+  const target = ss.getSheetByName('Draft Queue');
+  if (!source || !target) throw new Error('Check sheet names: Calendar and Draft Queue.');
+
+  const values = source.getDataRange().getValues();
+  const headers = values[0];
+  const dayCol = headers.indexOf('Day');
+  const themeCol = headers.indexOf('Content theme');
+  const typeCol = headers.indexOf('Post type');
+  const ideaCol = headers.indexOf('Content idea');
+  const statusCol = headers.indexOf('Status');
+
+  if ([dayCol, themeCol, typeCol, ideaCol, statusCol].includes(-1)) {
+    throw new Error('Required columns are missing. Check the Calendar headings.');
+  }
+
+  for (let r = 1; r < values.length; r++) {
+    if (String(values[r][statusCol]).toUpperCase() === 'READY') {
+      target.appendRow([
+        values[r][dayCol],
+        values[r][themeCol],
+        values[r][typeCol],
+        values[r][ideaCol],
+        'DRAFT'
+      ]);
+      source.getRange(r + 1, statusCol + 1).setValue('COPIED');
+    }
+  }
+}
+
+Safety and testing:
+- Test with sample content only.
+- Review the script before granting permissions.
+- It only reads and writes within this spreadsheet; it does not publish posts.
+- Do not store customer names, phone numbers, addresses, or private messages in this sample project.

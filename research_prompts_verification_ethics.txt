@@ -1,0 +1,39 @@
+RESEARCH AND PROJECT ASSUMPTIONS
+Business: Cake Corner (fictional)
+Audience: Families, students, and working adults planning birthdays and small celebrations.
+Audience needs assumed for this classroom project: clear cake inspiration, flavour ideas, easy-to-understand planning tips, and attractive visuals.
+Content goals: build awareness, encourage harmless interaction (polls/comments), and show a consistent brand style.
+
+This is a fictional concept, not a market-research claim about a real bakery. No customer survey or competitor analysis has been conducted. If the assignment requires primary research, conduct a short voluntary survey and report the actual responses without collecting sensitive personal information.
+
+PROMPT ENGINEERING EXAMPLES
+1. Calendar prompt:
+“Act as a social media content planner. Create a 30-day calendar for a fictional small cake shop named Cake Corner. Audience: families, students and working adults. Include day, theme, post type, content idea and suitable hashtags. Use a warm, friendly tone. Do not invent prices, addresses, customer reviews or business claims.”
+
+2. Caption prompt:
+“Write one short Instagram caption for a fictional cake shop. Topic: cupcake spotlight. Use a cheerful but natural tone, one simple engagement question, and relevant hashtags. Do not claim products are available for purchase.”
+
+3. Visual prompt:
+“Create a clean pastel bakery poster for a fictional brand called Cake Corner. Topic: birthday cake inspiration. Use cream and pastel pink, readable text, generous spacing, and no phone number, address, price or fake customer testimonial.”
+
+4. Verification prompt:
+“Review this draft for unsupported factual claims, unclear wording, cultural sensitivity, spelling, and copyright risks. List concerns and suggest safe revisions. Do not assume a claim is true.”
+
+VERIFICATION / ERROR LOG
+Potential AI issue | How to check or correct
+Invented product availability | Confirm with the business owner; for this fictional project, describe items as inspiration only
+Incorrect food storage advice | Check authoritative food-safety guidance before publishing; otherwise use cautious wording
+Fake prices, reviews, address or contact details | Remove them; none are supplied in this project
+Cultural or festival mismatch | Check dates, local context and respectful wording before use
+Copyrighted image or music | Use original work or assets with a clear licence; keep a record of the licence
+Spelling or awkward text in poster | Proofread every visual at phone-screen size
+
+RESPONSIBLE AI CHECKLIST
+- Clearly identify Cake Corner as fictional in the student submission.
+- Do not invent customer testimonials, sales results, prices, contact details or product claims.
+- Use original visuals or properly licensed assets.
+- Verify food-related claims before public posting.
+- Review language for cultural sensitivity and accessibility.
+- Do not upload private customer information.
+- Do not automate publishing or direct messages to real people without consent.
+- Keep a record of prompts, edits and errors.
